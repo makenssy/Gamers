@@ -39,7 +39,7 @@ bot.on('guildMemberAdd', member => {
     member.addRole(role)
 
     const embed = new Discord.RichEmbed()
-              .setDescription(`:verified:  Welcome to **Gamers!** ${member.user}!!`)
+              .setDescription(`:cyclone:  Welcome to **Gamers!** ${member.user}!!`)
               .setColor('RANDOM')
 
     member.guild.channels.get('375618547373703168').send({embed});
