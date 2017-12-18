@@ -39,7 +39,7 @@ bot.on('guildMemberAdd', member => {
     member.addRole(role)
 
     const embed = new Discord.RichEmbed()
-              .setDescription(`:beginner: **Bienvenido** ${member.user}!!`)
+              .setDescription(`:verified:  Welcome to **Gamers!** ${member.user}!!`)
               .setColor('RANDOM')
 
     member.guild.channels.get('375618547373703168').send({embed});
@@ -51,7 +51,7 @@ bot.on('guildMemberAdd', member => {
 bot.on('guildMemberRemove', member => {
 
   const embed = new Discord.RichEmbed()
-            .setDescription(`${member.user} *dejó el server*`)
+            .setDescription(`${member.user} *has left*`)
 
 
   member.guild.channels.get('375618547373703168').send({embed});
