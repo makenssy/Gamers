@@ -24,7 +24,7 @@ bot.on('message', message => {
 bot.on('ready', () => {
     console.log('Liftoff...') //
 
-    bot.user.setStatus('Idle')
+    bot.user.setStatus('idle')
 
 
 });
